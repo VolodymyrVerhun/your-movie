@@ -31,6 +31,7 @@
   -moz-box-shadow: 1px -1px 35px 18px rgba(0, 0, 0, 0.35) inset;
 }
 .text {
+  text-wrap: balance;
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
@@ -38,6 +39,6 @@
   -webkit-box-orient: vertical;
   &:hover {
     overflow: visible;
-    -webkit-line-clamp: initial;
+    -webkit-line-clamp: unset;
   }
 }

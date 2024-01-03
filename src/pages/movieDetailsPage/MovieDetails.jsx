@@ -60,7 +60,7 @@ export default function MovieDetails() {
         />
         <div className={style.block}>
           <h2 className={style.title}>
-            {movie.title || movie.name}
+            {movie.title || movie.name}{' '}
             <span>({movie.release_date?.slice(0, 4)})</span>
           </h2>
           <p>
